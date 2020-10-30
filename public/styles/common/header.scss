@@ -1,0 +1,98 @@
+nav.navbar {
+   .navbar-brand {
+      width : 170px;
+      margin-right: 1.5rem;
+   }
+
+   .menu-items {
+      font-size: 1.2rem;
+      font-weight: 500;
+
+      .nav-item {
+         margin-right: 1.8rem;
+
+         a.nav-link {
+            color: #172b4d;
+            font-size: 1.1rem;
+         }
+
+         a.nav-link:hover {
+            color: black;
+         }
+      }
+   }
+
+   div.contact-blk {
+      a.contact-button {
+         text-align: center;
+         border-radius: .4rem;
+         color: white;
+         -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+         box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+         padding: .5rem 1.3rem !important;
+         -webkit-transition: all .2s;
+         transition: all .2s;
+         background: rgb(9,9,121);
+         background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,82,204,1) 0%, rgba(0,130,204,1) 100%);
+      }
+
+      a.contact-button:hover {
+         -webkit-transform: translateY(3px);
+         transform: translateY(3px);
+         text-decoration: none; 
+         -webkit-box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.08);
+         box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.08);
+         color: white;
+      }
+   }
+
+   ul.social-items {
+      width: 35%;
+      margin-bottom: 0;
+
+      li {
+         list-style-type: none;
+         display: inline-block;
+         max-width:50%; /* limit width */
+         word-break:break-all; /* wrap extended text*/
+         text-align: center;
+
+         a img {
+            width: 50px;
+            padding: 5px;
+         }
+      }
+   }
+} 
+
+@media only screen and (max-width: 768px) {
+   nav.navbar {
+      .navbar-brand {
+         width : 200px;
+      }
+
+      button.navbar-toggler {
+         border: none;
+      }
+
+      .menu-items {
+         .nav-item {
+            border-bottom: 1px solid #e8e8e8;
+            margin-right: 0;
+            margin-top: 10px;
+         }
+      }
+
+      div.contact-blk {
+         margin-top: 15px;
+         a.contact-button {
+            display: inline-block;
+            width: 100%;
+         }
+      } 
+
+      ul.social-items {
+         margin: auto;
+      }
+   }
+}

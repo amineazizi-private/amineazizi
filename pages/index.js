@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title> Amine Azizi - The Product Guy </title>
       </Head>
+      <Content />
     </Layout>
   )
 }

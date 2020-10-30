@@ -1,0 +1,26 @@
+.home-blk {
+   .promise-content {
+      font-size: 3.4rem;
+      color: #253858;
+      margin-bottom: 2.3rem;
+      line-height: 4.7rem;
+      font-weight: bold;
+
+      .focus-word {
+         color: #0052cc;
+      }
+   }
+
+   .waves-bottom {
+      position: relative;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .home-blk {
+      .promise-content {
+         font-size: 2rem;
+         line-height: 3rem;
+      }
+   }
+}
