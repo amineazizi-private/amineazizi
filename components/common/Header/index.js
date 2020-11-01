@@ -35,34 +35,32 @@ export default function index() {
                </ul>
 
                <div className="contact-blk p-2">
-                  <Link href="/contact-me">
-                     <a className="contact-button">Contact</a>
-                  </Link>
+                     <a className="contact-button" href="mailto:hi@amineazizi.com" target="_blank" >Contact</a>
                </div>
 
                <ul className="social-items ml-auto p-2 d-flex justify-content-center">
                   <li>
-                     <a href="https://www.linkedin.com/in/amineazizi/" title="Linkedin profile">
-                        <img src="/images/social-media/linkedin.svg" alt="Linkedin" /> 
+                     <a href="https://www.linkedin.com/in/amineazizi/" target="_blank" title="Linkedin profile">
+                        <img src="/images/social-media/linkedin.svg"alt="Linkedin" /> 
                      </a>
                   </li>
                   <li >
-                     <a href="https://twitter.com/amineazizix" title="twitter profile">
+                     <a href="https://twitter.com/amineazizix" target="_blank" title="twitter profile">
                         <img src="/images/social-media/twitter.svg" alt="twitter" /> 
                      </a>
                   </li>
                   <li >
-                     <a href="https://www.instagram.com/amineazizix/" title="instagram profile">
+                     <a href="https://www.instagram.com/amineazizix/" target="_blank" title="instagram profile">
                         <img src="/images/social-media/instagram.svg" alt="instagram" /> 
                      </a>
                   </li>
                   <li >
-                     <a href="https://www.facebook.com/amineazizix/" title="facebook profile">
+                     <a href="https://www.facebook.com/amineazizix/" target="_blank" title="facebook profile">
                         <img src="/images/social-media/facebook.svg" alt="facebook" /> 
                      </a>
                   </li>
                   <li >
-                     <a href="https://github.com/amineazizix" title="github profile">
+                     <a href="https://github.com/amineazizix" target="_blank" title="github profile">
                         <img src="/images/social-media/github.svg" alt="github" /> 
                      </a>
                   </li>

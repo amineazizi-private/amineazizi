@@ -4,12 +4,12 @@ export default function index() {
    return (
       <div className="footer-blk">
          <footer className="container">
-            <div className="row footer-top py-md-4">
+            <div className="row footer-top pb-md-4">
                <div className="col-sm-3">
                   <p className="footer-logo">
                      <a href="/">
-                        <img className="d-md-inline d-none" src="/images/logo-big.svg" alt="Amine Azizi Logo" width="150%" />
-                        <img className="d-md-none" src="/images/logo-small.svg" alt="Amine Azizi Logo" width="100%" />
+                        <img className="d-md-inline d-none" src="/images/logo-footer.svg" alt="Amine Azizi Logo" width="150%" />
+                        <img className="d-md-none" src="/images/logo-footer-small.svg" alt="Amine Azizi Logo" width="100%" />
                      </a>
                   </p>
                </div>
@@ -19,61 +19,59 @@ export default function index() {
                            <h5>Take a tour</h5>
                            <ul className="pl-0 mt-3">
                               <li>
+                                 <Link href="/">
+                                    <a >Home</a>
+                                 </Link>
+                              </li>
+                              <li>
                                  <Link href='/learn'>
-                                    <a className="text-secondary">Learn</a>
+                                    <a >Learn</a>
                                  </Link>
                               </li>
                               <li>
                                  <Link href="/learn/roadmaps">
-                                    <a className="text-secondary" >Roadmaps</a>
+                                    <a >Roadmaps</a>
                                  </Link>
                               </li>
                               <li>
                                  <Link href="/open-works">
-                                 <a className="text-secondary" >Open Works</a>
+                                    <a >Open Works</a>
                                  </Link>
                               </li>
                               <li>
                                  <Link href='/About'>
-                                    <a className="text-secondary">About</a>
-                                 </Link>
-                              </li>
-                              <li>
-                                 <Link href="/">
-                                    <a className="text-secondary">Home</a>
+                                    <a >About</a>
                                  </Link>
                               </li>
                            </ul>
                         </div>
                         <div className="col-6 col-sm-4">
-                           <h5>Find Me</h5>
+                           <h5>Find me on</h5>
                            <ul className="pl-0 mt-3">
                               <li>
-                                 <a className="text-secondary" href="https://www.linkedin.com/in/amineazizi/" title="Linkedin profile">Linkedin</a>
+                                 <a href="https://www.linkedin.com/in/amineazizi/"  target="_blank" title="Linkedin profile">Linkedin</a>
                               </li>
                               <li>
-                                 <a className="text-secondary" href="https://twitter.com/amineazizix" title="Twitter profile">Twitter</a>
+                                 <a href="https://twitter.com/amineazizix"  target="_blank" title="Twitter profile">Twitter</a>
                               </li>
                               <li>
-                                 <a className="text-secondary" href="https://www.instagram.com/amineazizix/" title="Instagram profile">Instagram</a>
+                                 <a href="https://www.instagram.com/amineazizix/"  target="_blank" title="Instagram profile">Instagram</a>
                               </li>
                               <li>
-                                 <a className="text-secondary" href="https://www.facebook.com/amineazizix/" title="Facebook profile">Facebook</a>
+                                 <a href="https://www.facebook.com/amineazizix/"  target="_blank" title="Facebook profile">Facebook</a>
                               </li>
                               <li>
-                                 <a className="text-secondary" href="https://github.com/amineazizix" title="Github profile">Github</a>
+                                 <a href="https://github.com/amineazizix"  target="_blank" title="Github profile">Github</a>
                               </li>
                            </ul>
                         </div>
                         <div className="col-12 col-sm-4 footer-contact">
-                           <h5>Contacte</h5>
+                           <h5>Contact</h5>
                            <ul className="pl-0 mt-3">
-                              <li><b>By Email</b><br /><a href="mailto:hi@amineazizi.com" className="text-secondary">hi@amineazizi.com</a></li>
+                              <li><b>By Email</b><br /><a href="mailto:hi@amineazizi.com"  target="_blank" >hi@amineazizi.com</a></li>
                               <li>
                                  <b>Call</b><br />
-                                 <Link href='//calendly.com/amine-azizi/call'>
-                                    <a className="text-secondary">schedule a call</a>
-                                 </Link>
+                                    <a href='//calendly.com/amine-azizi/call' className="text-white"  target="_blank">Schedule a call</a>
                               </li>
                            </ul>
                         </div>
@@ -82,7 +80,7 @@ export default function index() {
             </div>
             <div className="row footer-bottom pt-2">
                <div className="col-sm-12">
-                  <p className="text-secondary">© Copyright Amine Azizi 2020. All rights reserved.</p>
+                  <p >© Copyright Amine Azizi 2020. All rights reserved.</p>
                </div>
             </div>
          </footer> 

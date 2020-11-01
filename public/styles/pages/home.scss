@@ -8,11 +8,15 @@
 
       .focus-word {
          color: #0052cc;
+         background: -webkit-linear-gradient(0deg ,#0052cc, #0082cc);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
       }
    }
 
    .waves-bottom {
       position: relative;
+      top: 3px;
    }
 }
 
