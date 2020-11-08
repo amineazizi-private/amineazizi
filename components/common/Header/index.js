@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 export default function index() {
    return (
-      <div className="container-fluid sticky-top bg-white px-1 px-sm-5">
-         <nav className="navbar navbar-expand-md navbar-light mb-sm-3 mt-2 justify-content-between">
+      <div className="container-fluid sticky-top bg-white px-1 px-sm-5" id="navbar-container">
+         <nav className="navbar navbar-expand-md navbar-light mb-sm-3 justify-content-between">
             <Link href='/'>
                <a className="navbar-brand">
-                  <img className="d-md-inline d-none" src="/images/logo-big.svg" alt="Amine Azizi logo" width="100%" />
-                  <img className="d-md-none" src="/images/logo-small.svg" alt="Amine Azizi logo" width="100%" />
+                  <img id="logo-big" className="d-md-inline d-none" src="/images/logo-big.svg" alt="Amine Azizi logo" width="100%" />
+                  <img id="logo-small" className="d-md-none" src="/images/logo-small.svg" alt="Amine Azizi logo" width="100%" />
                </a>
             </Link>
 

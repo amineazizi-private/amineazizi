@@ -15,18 +15,18 @@ export default function index() {
          <div className="portfolio-blk">
             <div className="company-slider-top">
                <div className="slider-top-first">
-                  <div className="company-logo"><img src="/images/portfolio/legalplace.png" alt="Legalplace"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/wechsra.png" alt="Wechsra"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/lalchimiste.png" alt="L'alchimiste"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/place2swap.png" alt="Place2swap"/> </div>
-                  <div className="company-logo"><img src="/images/portfolio/wechsra.png" alt="Wechsra"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/legalplace.png" alt="Legalplace"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/skaalab.png" alt="Skaalab"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/edbridg.png" alt="Edbridg"/> </div>
                </div>
                <div className="slider-top-next">
-                  <div className="company-logo"><img src="/images/portfolio/legalplace.png" alt="Legalplace"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/wechsra.png" alt="Wechsra"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/lalchimiste.png" alt="L'alchimiste"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/place2swap.png" alt="Place2swap"/> </div>
-                  <div className="company-logo"><img src="/images/portfolio/wechsra.png" alt="Wechsra"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/legalplace.png" alt="Legalplace"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/skaalab.png" alt="Skaalab"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/edbridg.png" alt="Edbridg"/> </div>
                </div>

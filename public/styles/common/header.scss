@@ -1,4 +1,23 @@
+.sticky-header {
+   box-shadow: 0 -2px 16px #000000c4;
+
+   nav.navbar {
+      padding: 0 !important;
+      margin-top: 0 !important;
+      
+      .navbar-brand {
+         #logo-big {
+            display: none !important;
+         }
+         #logo-small {
+            display: inline !important;
+         }
+      }
+   }
+}
+
 nav.navbar {
+   transition: 0.3s;
    .navbar-brand {
       width : 170px;
       margin-right: 1.5rem;
