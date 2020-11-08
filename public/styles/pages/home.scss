@@ -20,11 +20,73 @@
    }
 }
 
+.portfolio-blk {
+   margin-top: 60px;
+   overflow: hidden;
+
+   .company-slider-top, .company-slider-bottom{
+      position: relative;
+      height: 100px;
+      overflow: hidden;
+      width: max-content;
+
+      .slider-top-first, .slider-top-next {
+         display: inline-block;
+
+         .company-logo {
+            display: inline-block;
+            text-align: center;
+            margin: 40px 30px;
+
+            img {
+               height: 40px;
+               filter: grayscale(100%);
+               opacity: 0.6;
+               transition: filter .2s ease;
+               transition: opacity .2s ease;
+            }
+            img:hover {
+               filter: grayscale(0%); 
+               opacity: 1; 
+            }
+         }
+      }
+   }
+
+   .company-slider-top{
+      animation: 40s linear 0s infinite normal none running first-slider;
+   }
+   .company-slider-bottom{
+      animation: 60s linear 0s infinite normal none running second-slider;
+   }
+}
+
+@keyframes first-slider {
+   from {
+      transform: translate3d(0,0,0);
+   }
+   to {
+      transform: translate3d(-50%,0,0);
+   } 
+}
+@keyframes second-slider {
+   from {
+      transform: translate3d(0,0,0);
+   }
+   to {
+      transform: translate3d(-50%,0,0);
+   } 
+}
+
 @media only screen and (max-width: 768px) {
    .home-blk {
       .promise-content {
          font-size: 2rem;
          line-height: 3rem;
       }
+   }
+
+   .portfolio-blk {
+      margin-bottom: 50px;
    }
 }
