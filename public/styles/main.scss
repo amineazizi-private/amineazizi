@@ -1,45 +1,9 @@
 @import "bootstrap/bootstrap.scss";
+@import "fonts.scss";
 @import "common/header.scss";
 @import "common/footer.scss";
 @import "pages/home.scss";
 
-@font-face {
-   font-family: 'Gotham Black'; 
-   src: url('../fonts/Gotham-Black.otf') format('opentype');
-}
-@font-face {
-   font-family: 'Gotham Bold'; 
-   src: url('../fonts/Gotham-Bold.otf') format('opentype');
-}
-@font-face {
-   font-family: 'Gotham BookItalic'; 
-   src: url('../fonts/Gotham-BookItalic.otf') format('opentype');
-}
-@font-face {
-   font-family: 'Gotham Light'; 
-   src: url('../fonts/Gotham-Light.otf') format('opentype');
-}
-@font-face {
-   font-family: 'Gotham Thin'; 
-   src: url('../fonts/Gotham-Thin.otf') format('opentype');
-}
-@font-face {
-   font-family: 'Gotham ThinItalic'; 
-   src: url('../fonts/Gotham-ThinItalic.otf') format('opentype');
-}
-@font-face {
-   font-family: 'Gotham UltraItalic'; 
-   src: url('../fonts/Gotham-UltraItalic.otf') format('opentype');
-}
-@font-face {
-   font-family: 'Gotham XLight'; 
-   src: url('../fonts/Gotham-XLight.otf') format('opentype');
-}
-@font-face {
-   font-family: 'Gotham XLightItalic'; 
-   src: url('../fonts/Gotham-XLightItalic.otf') format('opentype');
-}
-
 body {
-    font-family: 'Gotham Bold', sans-serif;
+   font-family: 'Gotham', sans-serif;
 }
