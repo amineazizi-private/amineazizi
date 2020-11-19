@@ -21,6 +21,9 @@ export default function index() {
                   <div className="company-logo"><img src="/images/portfolio/legalplace.png" alt="Legalplace"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/skaalab.png" alt="Skaalab"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/edbridg.png" alt="Edbridg"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/jules.png" alt="Jules"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/cdiscount.png" alt="Cdiscount"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/veepee.png" alt="Veepee"/> </div>
                </div>
                <div className="slider-top-next">
                   <div className="company-logo"><img src="/images/portfolio/wechsra.png" alt="Wechsra"/> </div>
@@ -29,6 +32,9 @@ export default function index() {
                   <div className="company-logo"><img src="/images/portfolio/legalplace.png" alt="Legalplace"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/skaalab.png" alt="Skaalab"/> </div>
                   <div className="company-logo"><img src="/images/portfolio/edbridg.png" alt="Edbridg"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/jules.png" alt="Jules"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/cdiscount.png" alt="Cdiscount"/> </div>
+                  <div className="company-logo"><img src="/images/portfolio/veepee.png" alt="Veepee"/> </div>
                </div>
             </div>
             <div className="company-slider-bottom">
