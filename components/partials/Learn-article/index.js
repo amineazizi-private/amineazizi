@@ -2,22 +2,18 @@ import Link from 'next/link'
 
 export default function index({ articleData, recentArticleList }){
    return (
-   <div className="article-blk">
+   <div className="article-blk" id="top">
       <div className='container article-wrapper'>
          <div className="row">
             <div className="col-md-2 d-md-block d-none article-summary" id="article-summary">
                <div className="article-summary-content">
                   <h3>CONTENTS</h3>
                   <ul>
-                     <li>
-                        <a href="#politique" className="title-focus">Politique centrée sur les relations humaines</a> 
-                     </li>
-                     <li>
-                        <a href="#technologie">Technologie d'appui</a>
-                     </li>
-                     <li>
-                        <a href="#conclusion">Conclusion</a>
-                     </li>
+                     {articleData.summary.map(entry => (
+                        <li key={entry.toLowerCase().replace(/ /g,"-")}>
+                           <a href={`#${entry.toLowerCase().replace(/ /g,"-")}`}>{entry}</a> 
+                        </li>
+                     ))} 
                   </ul>
                </div> 
             </div>
@@ -95,6 +91,12 @@ export default function index({ articleData, recentArticleList }){
                   ))}
                </div>
             </div>
+      </div>
+
+      <div id="scrollUp">
+         <a href="#top">
+            Scroll to top
+         </a>
       </div>
    </div>
    )

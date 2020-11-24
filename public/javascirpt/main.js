@@ -16,6 +16,14 @@ function scrollFunction() {
          document.getElementById("navbar-container").classList.remove('sticky-header');
       }
    }
+
+   if(document.getElementById("scrollUp")){
+      if(window.pageYOffset > 300) {
+         document.getElementById("scrollUp").style.display = 'block';
+      } else {
+         document.getElementById("scrollUp").style.display = 'none';
+      }
+   }
 }
 
 window.addEventListener('DOMContentLoaded', () => {

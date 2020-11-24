@@ -1,12 +1,12 @@
 .footer-blk {
+  .waves-bottom {
+    position: relative;
+    top: 4px;
+  }
+
   .footer-content {
     background: rgb(9,9,121);
     background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,82,204,1) 0%, rgba(0,130,204,1) 100%);
-
-    .waves-bottom {
-      position: relative;
-      top: 5px;
-    }
 
     footer {
       .footer-top {
