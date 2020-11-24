@@ -3,7 +3,14 @@
 @import "common/header.scss";
 @import "common/footer.scss";
 @import "pages/home.scss";
+@import "pages/learn.scss";
+@import "pages/learn-article.scss";
+@import "pages/about.scss";
 
-body {
-   font-family: 'Gotham', sans-serif;
+html {
+	scroll-behavior: smooth;
+
+   body {
+      font-family: 'Gotham', sans-serif;
+   }
 }
