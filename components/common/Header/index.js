@@ -6,8 +6,8 @@ export default function index() {
          <nav className="navbar navbar-expand-md navbar-light justify-content-between">
             <Link href='/'>
                <a className="navbar-brand">
-                  <img id="logo-big" className="d-md-inline d-none" src="/images/logo-big.svg" alt="Amine Azizi logo" width="100%" />
-                  <img id="logo-small" className="d-md-none" src="/images/logo-small.svg" alt="Amine Azizi logo" width="100%" />
+                  <object data="/images/logo-big.svg" type="image/svg+xml" className="d-md-inline d-none" width="100%" id="logo-big" ></object>
+                  <object data="/images/logo-small.svg" type="image/svg+xml"  width="100%" className="d-md-none"  id="logo-small" ></object>
                </a>
             </Link>
 
