@@ -17,6 +17,7 @@
 }
 
 nav.navbar {
+   max-height: 90px !important;
    transition: 0.4s;
    .navbar-brand {
       position: relative;
@@ -26,6 +27,7 @@ nav.navbar {
       margin-right: 1.5rem;
 
       object {
+         max-height: 52px;
          position: relative;
          z-index: -1;
       }
