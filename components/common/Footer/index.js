@@ -14,7 +14,7 @@ export default function index() {
                   <div className="col-sm-3">
                      <p className="footer-logo">
                         <a href="/">
-                           <object data="/images/logo-footer.svg" type="image/svg+xml" className="d-md-inline d-none" width="150%"></object>
+                           <object data="/images/logo-footer.svg" type="image/svg+xml" className="d-md-inline d-none" width="100%"></object>
                            <object data="/images/logo-footer-small.svg" type="image/svg+xml" className="d-md-none" width="100%"></object>
                         </a>
                      </p>
