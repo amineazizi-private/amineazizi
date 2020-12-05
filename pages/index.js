@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { default as Content } from '../components/partials/Home';
 import Layout from '../components/common/Layout';
-import { getAllArticlesIds, getRecentArticlesData } from '../utils/learn-articles';
+import { getRecentArticlesData } from '../utils/learn-articles';
 
 export default function Home({recentArticles }) {
   return (
@@ -12,14 +12,6 @@ export default function Home({recentArticles }) {
       <Content recentArticleList={recentArticles}/>
     </Layout>
   )
-}
-
-export async function getStaticPaths() {
-  const paths = getAllArticlesIds()
-  return {
-    paths,
-    fallback: false
-  }
 }
 
 export async function getStaticProps() {

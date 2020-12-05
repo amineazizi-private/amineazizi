@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import {default as Content } from '../components/partials/Learn';
-import Layout from '../components/common/Layout'
-import { getSortedArticlesData } from '../utils/learn-articles'
+import Layout from '../components/common/Layout';
+import { getSortedArticlesData } from '../utils/learn-articles';
 
 export default function Learn({ allArticlesData }) {
   return (
