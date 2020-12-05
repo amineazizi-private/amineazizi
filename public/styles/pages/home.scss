@@ -14,47 +14,6 @@
       }
    }
 
-   .portfolio-blk {
-      margin-top: 60px;
-      overflow: hidden;
-
-      .company-slider-top, .company-slider-bottom{
-         position: relative;
-         height: 100px;
-         overflow: hidden;
-         width: max-content;
-
-         .slider-top-first, .slider-top-next {
-            display: inline-block;
-
-            .company-logo {
-               display: inline-block;
-               text-align: center;
-               margin: 40px 30px;
-
-               img {
-                  height: 40px;
-                  filter: grayscale(100%);
-                  opacity: 0.6;
-                  transition: filter .2s ease;
-                  transition: opacity .2s ease;
-               }
-               img:hover {
-                  filter: grayscale(0%); 
-                  opacity: 1; 
-               }
-            }
-         }
-      }
-
-      .company-slider-top{
-         animation: 40s linear 0s infinite normal none running first-slider;
-      }
-      .company-slider-bottom{
-         animation: 60s linear 0s infinite normal none running second-slider;
-      }
-   }
-
    .explore-blk {
       text-align: center;
       margin-top: 120px;
@@ -264,6 +223,47 @@
             }
          }
       }
+   }
+}
+
+.portfolio-blk {
+   margin-top: 60px;
+   overflow: hidden;
+
+   .company-slider-top, .company-slider-bottom{
+      position: relative;
+      height: 100px;
+      overflow: hidden;
+      width: max-content;
+
+      .slider-top-first, .slider-top-next {
+         display: inline-block;
+
+         .company-logo {
+            display: inline-block;
+            text-align: center;
+            margin: 40px 30px;
+
+            img {
+               height: 40px;
+               filter: grayscale(100%);
+               opacity: 0.6;
+               transition: filter .2s ease;
+               transition: opacity .2s ease;
+            }
+            img:hover {
+               filter: grayscale(0%); 
+               opacity: 1; 
+            }
+         }
+      }
+   }
+
+   .company-slider-top{
+      animation: 40s linear 0s infinite normal none running first-slider;
+   }
+   .company-slider-bottom{
+      animation: 60s linear 0s infinite normal none running second-slider;
    }
 }
 

@@ -121,7 +121,7 @@ export default function index({ recentArticleList }) {
 
                <div className="description">
                   <p>Now that your philosophy, identity, and values start to take shape, it's time to tell your customer that you have the solution. Let's go fully ballistic and put in place a bulletproof acquisition funnel. We will generate an enormous set of leads by leveraging our growth hacking methods. Then, we'll automate the acquisition process and build brand awareness. For that, we will kick off a content strategy that'll harness the power of emails, social media, search engines, and word of mouth. We will rock it!
-                  <br/><br/>On the way, we'll track each move of your customers and leads in order to will learn, adapt, and iterate.</p>
+                  <br/><br/>On the way, we'll track each move of your customers and leads in order to learn, adapt, and iterate.</p>
                </div>
 
                <div className="tiny-heading">
@@ -139,7 +139,7 @@ export default function index({ recentArticleList }) {
             </div> 
             <div className="cta-button">
                <a href="mailto:hi@amineazizi.com" target="_blank">
-                  Drop me a line
+                  Drop a line
                   <img src="/images/cta-button.svg" alt="Cta image"/>
                </a>
             </div>
