@@ -38,7 +38,7 @@ export default function index() {
 
                   <div className="text-content">
                      <p className="mb-5 mt-5">Now that you know my name. Let me tell you a bit about my story. I started my career as a software engineer. I've worked as a full-stack developer in European startups that have raised many millions of euros.</p><br/>
-                     <p >In the meantime, I loved tinkering with big loads of data and improving the esthetics of diverse user interfaces. That's what gave me the idea of learning about product ownership and management. I first wore the PO hat working for a Forbes 30 under 30 fintech startup that raised 1.5M dollars. Since then, I've become obsessed with customers and never stoped analyzing their behaviors.</p><br/>
+                     <p >In the meantime, I loved tinkering with big loads of data and improving the esthetics of diverse user interfaces. That's what pushed me to learn about product ownership and management. Before becoming a product manager, I started as a PO working for a Forbes 30 under 30 fintech startup that raised 1.5M dollars. Since then, I've become obsessed with customers and never stoped analyzing their behaviors.</p><br/>
                      <p>Wait a minute! Have I told you that I'm a professional swimmer and guitar player? So please, invite me for your outings. I've many good jokes that will release your mind from a hard-working day.</p>
                   </div>
                </div>
