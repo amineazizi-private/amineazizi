@@ -24,7 +24,7 @@ export default function index() {
                   </li>
                   <li className="nav-item">
                      {/* <Link href="/open-works"> */}
-                        <a href="https://github.com/amineazizix" className="nav-link">Open Works</a>
+                        <a href="https://github.com/amineazizix" className="nav-link" target="_blank">Open Works</a>
                      {/* </Link> */}
                   </li>
                   <li className="nav-item">
