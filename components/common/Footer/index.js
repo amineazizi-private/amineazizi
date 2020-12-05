@@ -77,7 +77,7 @@ export default function index() {
                                  <li><b>By Email</b><br /><a href="mailto:hi@amineazizi.com"  target="_blank" >hi@amineazizi.com</a></li>
                                  <li>
                                     <b>Call</b><br />
-                                       <a href='//calendly.com/amine-azizi/call' className="text-white"  target="_blank">Schedule a call</a>
+                                       <a href='https://calendly.com/amineazizi/call' className="text-white"  target="_blank">Schedule a call</a>
                                  </li>
                               </ul>
                            </div>
