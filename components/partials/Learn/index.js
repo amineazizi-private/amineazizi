@@ -5,7 +5,7 @@ export default function index({ articlesInfo }){
       <div className="learn-blk">
          <div className="learn-top">
             <h2> Learn </h2>
-            <p>Take your product from <b>Ideation</b> to <b>Creation</b>, and finish it with <b>Monetization</b>.</p>
+            <p>Take your product from Ideation to Creation, and finish it with Monetization.</p>
          </div>
 
          <div className="container learn-listing">
