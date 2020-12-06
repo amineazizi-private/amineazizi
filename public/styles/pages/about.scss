@@ -68,3 +68,43 @@
       }
    }
 }
+
+@media only screen and (max-width: 768px) {
+   .about-blk {
+      text-align: center;
+
+      .head-blk {
+         margin-top: 50px;
+         .personal-image-mobile {
+            width: 50%;
+            margin: auto;
+         }
+
+         h1 {
+            font-size: 3rem;
+            margin-top: 0;
+         }
+
+         ul.social-items {
+            margin: auto;
+            margin-top: 20px !important;
+            position: relative;
+            left: 10px;
+         }
+
+         .text-content {
+            text-align: left;
+            padding-left: 10px;
+            padding-right: 5px;
+            width: 100%;
+         }
+
+      }
+
+      .personal-image {
+         margin-top: 50px !important;
+         .quote {
+         }
+      }
+   }
+}

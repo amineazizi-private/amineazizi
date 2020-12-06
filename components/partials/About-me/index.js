@@ -6,6 +6,7 @@ export default function index() {
          <div className="container head-blk">
             <div className="row">
                <div className="col-12 col-md-7 d-flex flex-column justify-content-center">
+                  <img src="/images/about/amineazizi.jpg" alt="Amine Azizi" width="110%" className="personal-image-mobile d-md-none d-inline"/>
                   <h1>Amine Azizi</h1>
                   <h3>Product Manager</h3>
                   <ul className="social-items p-2 d-flex justify-content-left">
@@ -37,14 +38,14 @@ export default function index() {
                   </ul>
 
                   <div className="text-content">
-                     <p className="mb-5 mt-5">Now that you know my name. Let me tell you a bit about my story. I started my career as a software engineer. I've worked as a full-stack developer in European startups that have raised many millions of euros.</p><br/>
+                     <p className="mb-5 mt-5">Now that you know my name. Let me tell you a bit about my story. I started my career as a software engineer. I've worked as a full-stack developer for European startups that have raised millions of euros.</p><br/>
                      <p >In the meantime, I loved tinkering with big loads of data and improving the esthetics of diverse user interfaces. That's what pushed me to learn about product ownership and management. Before becoming a product manager, I started as a PO working for a Forbes 30 under 30 fintech startup that raised 1.5M dollars. Since then, I've become obsessed with customers and never stoped analyzing their behaviors.</p><br/>
                      <p>Wait a minute! Have I told you that I'm a professional swimmer and guitar player? So please, invite me for your outings. I've many good jokes that will release your mind from a hard-working day.</p>
                   </div>
                </div>
 
-               <div className="col-md-5 d-md-inline d-none personal-image">
-                  <img src="/images/about/amineazizi.jpg" alt="Amine Azizi" width="110%"/>
+               <div className="col-12 col-md-5 personal-image">
+                  <img src="/images/about/amineazizi.jpg" alt="Amine Azizi" width="110%" className="d-md-inline d-none"/>
                   <h3>MOTTO</h3>
                   <p className="quote">" Keep it simple, keep it stupid, doing just what it is supposed to do. "</p>
                </div>
