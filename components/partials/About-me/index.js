@@ -45,7 +45,7 @@ export default function index() {
                <div className="col-12 col-md-5 personal-image">
                   <img src="/images/about/amineazizi.jpg" alt="Amine Azizi" width="110%" className="d-md-inline d-none"/>
                   <h3>MOTTO</h3>
-                  <p className="quote">" Keep it simple, keep it stupid, just do what should be done. "</p>
+                  <p className="quote">" Keep it simple, keep it stupid, just do what should be done. <br/> It means, do not add cleverness unless you are absolutely sure you’re going to need it "</p>
                </div>
             </div>
          </div>
