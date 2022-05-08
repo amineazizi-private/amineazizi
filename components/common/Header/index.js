@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function index() {
    return (
-      <div className="container-fluid sticky-top bg-white px-1 px-sm-5" id="navbar-container">
+      <div className="container-fluid sticky-top bg-white px-1 px-sm-5 mb-3" id="navbar-container">
          <nav className="navbar navbar-expand-md navbar-light justify-content-between">
             <Link href='/'>
                <a className="navbar-brand">
@@ -41,7 +41,7 @@ export default function index() {
                <ul className="social-items ml-auto p-2 d-flex justify-content-center">
                   <li>
                      <a href="https://www.linkedin.com/in/amineazizi/" target="_blank" title="Linkedin profile">
-                        <img src="/images/social-media/linkedin.svg"alt="Linkedin" /> 
+                        <img src="/images/social-media/linkedin.svg" alt="Linkedin" />
                      </a>
                   </li>
                   <li >

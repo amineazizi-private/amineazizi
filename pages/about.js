@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title> About - Amine Azizi </title>
+        <title> About - Amine Azizi</title>
       </Head>
       <Content />
     </Layout>

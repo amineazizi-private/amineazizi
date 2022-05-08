@@ -3,14 +3,14 @@ import Link from 'next/link';
 export default function index() {
    return (
       <div className="footer-blk">
-         <div className="waves-bottom">
+          {/* <div className="waves-bottom">
             <img className="d-md-inline d-none" src="/images/wave.svg" alt="bottom wave"/>
             <img className="d-md-none" src="/images/wave-small.svg" alt="bottom wave"/>
-         </div>
+         </div> */}
 
          <div className="footer-content">
             <footer className="container">
-               <div className="row footer-top pb-md-4">
+               <div className="row footer-top py-md-4">
                   <div className="col-sm-3">
                      <p className="footer-logo">
                         <a href="/">
@@ -40,9 +40,9 @@ export default function index() {
                                     </Link>
                                  </li> */}
                                  <li>
-                                    <Link href="/open-works">
-                                       <a >Open Works</a>
-                                    </Link>
+                                     {/* <Link href="/open-works"> */}
+                                       <a href="https://github.com/amineazizix" >Open Works</a>
+                                     {/* </Link> */}
                                  </li>
                                  <li>
                                     <Link href='/About'>
@@ -86,7 +86,7 @@ export default function index() {
                </div>
                <div className="row footer-bottom pt-2">
                   <div className="col-sm-12">
-                     <p >© Copyright Amine Azizi 2020. All rights reserved.</p>
+                     <p >© Copyright Amine Azizi 2022. All rights reserved.</p>
                   </div>
                </div>
             </footer> 

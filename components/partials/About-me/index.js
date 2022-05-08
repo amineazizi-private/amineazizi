@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function index() {
    return (
       <div className="about-blk">
@@ -8,11 +6,11 @@ export default function index() {
                <div className="col-12 col-md-7 d-flex flex-column justify-content-center">
                   <img src="/images/about/amineazizi.jpg" alt="Amine Azizi" width="110%" className="personal-image-mobile d-md-none d-inline"/>
                   <h1>Amine Azizi</h1>
-                  <h3>Product Manager</h3>
+                  <h3>Business Growth Guru</h3>
                   <ul className="social-items p-2 d-flex justify-content-left">
                      <li>
                         <a href="https://www.linkedin.com/in/amineazizi/" target="_blank" title="Linkedin profile">
-                           <img src="/images/about/social-media/linkedin.svg"alt="Linkedin" /> 
+                           <img src="/images/about/social-media/linkedin.svg" alt="Linkedin" />
                         </a>
                      </li>
                      <li >
